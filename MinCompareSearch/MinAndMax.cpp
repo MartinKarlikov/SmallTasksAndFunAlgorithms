@@ -21,7 +21,7 @@ void getMinAndMax(std::vector<int>& input, int& min, int& max)
 	int minIndex = (vectorSize % 2 == 0) ? vectorSize / 2 - 1 : vectorSize / 2;
 	int maxIndex = vectorSize / 2;
 
-	for (int i = minIndex -1; i > 0; --i)
+	for (int i = minIndex -1; i >= 0; --i)
 	{
 		if (input[i] < input[minIndex])
 		{
