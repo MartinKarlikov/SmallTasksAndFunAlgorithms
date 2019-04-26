@@ -31,7 +31,7 @@ void getMinAndMax(std::vector<int>& input, int& min, int& max)
 		compareCount++;
 	}
 
-	for (int i = maxIndex; i < vectorSize; ++i)
+	for (int i = maxIndex+1; i < vectorSize; ++i)
 	{
 		if (input[i] > input[maxIndex])
 		{
